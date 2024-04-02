@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="paw.ico">
+    <title>취미</title>
+    <style>
+        *{font-family: "Gaegu", sans-serif;
+        font-weight: 800;
+        font-size: 50px;
+        font-style: normal;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        margin: 0;
+    }
+    
+    .first_line {
+        font-size: 65px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    body {
+        background-image: url('backGround.jpg');
+    }
+    
+    p {
+        
+        font-size: 30px;
+        text-align: center;
+        margin: 20px;
+    }
+
+
+    a{
+        display: inline-block; 
+    }
+    .link-container {
+        display: flex;
+        justify-content: center; /* 가로 가운데 정렬 */
+        gap: 100px; /* 링크 사이의 간격 조정 */
+        
+    }
+    .link-container a {
+        font-size: 30px; /* 글씨 크기 조정 */
+        margin-right: 10px; /* 링크 사이 간격 조정 */
+        text-decoration: none; /* 링크에 밑줄 제거 */
+        color: white; /* 링크 색상 설정 */
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="link-container">
+        <a href="main.html">HOME</a>
+        <a href="introduce.html">INTEREST</a>
+        <a href="interest.html">HOBBY</a>
+    </div>
+
+    <div  class="center">
+    <h1 class="first_line">제 취미는요!</h1>
+    <p>가장 좋아하는 것: 누워있기</p>
+    <p>노래 취향: 알앤비, 팝</p>
+    <iframe 
+    width="560" height="315" 
+    src="https://www.youtube.com/embed/9wUKhEgnllc?si=q-6eelMwMxfU1xCd" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+    </iframe>
+    </div>
+</body>
+</html>
